@@ -1,3 +1,46 @@
 :root {
-  
+  --background-general: #FFF87F;
+  --background-secundario: #FF637D;
+  --color-titulo: #BC4B51;
+  --color-letra: #EAF2E3;
+  --color-navegacion: #F4F1BB;
+  --color-otro: #5B8E7D;
+  --hover: #66D7D1;
+}
+
+body {
+  background: var(--color-letra);
+  padding: 0 2rem;
+}
+
+.encabezado {
+  color: var(--color-otro);
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.encabezado-logo {
+  padding-left: 1.25rem;
+  display: flex;
+}
+
+.encabezado-imagen {
+  padding-right: 0.25rem;
+}
+
+.encabezado-nombre {
+  font-size: 0.75rem;
+  align-items: center;
+}
+
+.encabezado-lista {
+  display: flex;
+}
+
+.encabezado-link {
+  color: var(--color-otro);
+  display: inline-block;
+  padding: 0 1rem;
+  text-decoration: none;
 }
